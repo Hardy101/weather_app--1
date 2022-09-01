@@ -34,8 +34,8 @@ class currentLocation {
           low: main.temp_min,
           avg: main.temp,
         },
-        icon: weather.icon,
-        desc: weather.description,
+        icon: weather[0].icon,
+        desc: weather[0].description,
         wind: wind.speed,
         rain: rain["1h"],
         sunrise: sys.sunrise,
@@ -45,9 +45,7 @@ class currentLocation {
       //   console.log(":( sorry, an error has occured...");
       console.log(err);
     }
-    console.log("hello");
   };
-  setCurrentWeather()
 }
 
 export default currentLocation;
