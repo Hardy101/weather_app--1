@@ -1,4 +1,4 @@
-import current_location from "./current_location.js";
+import currentLocation from "./current_location.js";
 
 // const getCurrentWeatherData = async () => {
 //   const weatherData = await fetch(

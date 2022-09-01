@@ -45,7 +45,9 @@ class currentLocation {
       //   console.log(":( sorry, an error has occured...");
       console.log(err);
     }
+    console.log("hello");
   };
+  setCurrentWeather()
 }
 
 export default currentLocation;
