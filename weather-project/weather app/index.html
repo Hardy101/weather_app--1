@@ -1,0 +1,123 @@
+<!-- https://codepen.io/hardy101/pen/rNvBZvY -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="container heading">
+        <div class="data">
+          <div class="location">
+            <span class="state">Edo State,</span>
+            <span class="country">Nigeria</span>
+          </div>
+          <div class="date">
+            <span class="dow">Wednesday</span>
+            <span class="dom">31</span>
+            <span class="month">August</span>
+          </div>
+        </div>
+        <form class="search">
+          <input
+            type="text"
+            class="searchBar"
+            placeholder="Where do you want to search"
+          />
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"
+              />
+            </svg>
+          </div>
+        </form>
+      </section>
+      <section class="container main">
+        <div class="avg-weather">
+          <div class="icon">
+            <img src="./weather.svg" alt="" />
+          </div>
+          <div class="data">
+            <div class="temp">21&deg;</div>
+            <div class="desc">too much rain</div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="weather-info">
+          <div class="high-temp">23&deg;<span>High</span></div>
+          <div class="wind">7mph <span>Wind</span></div>
+          <div class="sunrise">05:27 <span>Sunrise</span></div>
+          <div class="low-temp">18&deg; <span>Low</span></div>
+          <div class="rain">100% <span>Rain</span></div>
+          <div class="sunset">20:57 <span>Sunset</span></div>
+        </div>
+      </section>
+      <section class="container hourly">
+        <header>Today's Weather</header>
+        <div class="hour-data">
+          <div class="hour">
+            <div class="time">12pm</div>
+            <div class="icon">
+              <img src="./weather.svg" alt="" />
+            </div>
+            <div class="temp">23&deg;</div>
+          </div>
+          <div class="hour">
+            <div class="time">12pm</div>
+            <div class="icon">
+              <img src="./weather.svg" alt="" />
+            </div>
+            <div class="temp">23&deg;</div>
+          </div>
+          <div class="hour">
+            <div class="time">12pm</div>
+            <div class="icon">
+              <img src="./weather.svg" alt="" />
+            </div>
+            <div class="temp">23&deg;</div>
+          </div>
+          <div class="hour">
+            <div class="time">12pm</div>
+            <div class="icon">
+              <img src="./weather.svg" alt="" />
+            </div>
+            <div class="temp">23&deg;</div>
+          </div>
+          <div class="hour">
+            <div class="time">12pm</div>
+            <div class="icon">
+              <img src="./weather.svg" alt="" />
+            </div>
+            <div class="temp">23&deg;</div>
+          </div>
+          <div class="hour">
+            <div class="time">12pm</div>
+            <div class="icon">
+              <img src="./weather.svg" alt="" />
+            </div>
+            <div class="temp">23&deg;</div>
+          </div>
+          <div class="hour">
+            <div class="time">12pm</div>
+            <div class="icon">
+              <img src="./weather.svg" alt="" />
+            </div>
+            <div class="temp">23&deg;</div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>
